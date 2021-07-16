@@ -121,6 +121,7 @@ main{
     padding-bottom: 30px;
     text-align: center;
 
+
 }
 
 .main-exchange-container--title{
@@ -172,7 +173,7 @@ main{
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    color: var(--bitcoin-orange)
+    color: var(--bitcoin-orange);
 
 }
 
@@ -232,4 +233,54 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.currency-table--container .up{
+    display: inline-block;
+    width: 15px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/trending-up.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.currency-table--container .down-ripple{
+    display: inline-block;
+    width: 15px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/trending-down.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.currency-table--container .down-stellar{
+    display: inline-block;
+    width: 15px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/trending-down.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.currency-table--date{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;/* Esto es para separar de la tabla el texto*/
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--soft-orange);
+}
+
+.currency-table--date p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: var(--warm-black);
 }
