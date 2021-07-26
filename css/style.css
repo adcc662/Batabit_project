@@ -479,13 +479,25 @@ main{
     color: #757575;
 }
 
+.plans-container--slider{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+
+
+
+}
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 50%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
@@ -495,10 +507,11 @@ main{
 .plans-container--card2{
     position: relative;
     width: 50%;
-    min-width: 230px;
+    scroll-snap-align: center;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--warm-black);
     border-radius: 15px;
@@ -507,11 +520,12 @@ main{
 
 .plans-container--card3{
     position: relative;
+    scroll-snap-align: center;
     width: 50%;
-    min-width: 230px;
+    min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--warm-black);
     border-radius: 15px;
@@ -711,5 +725,38 @@ main{
     vertical-align: text-bottom;
 
 }
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color:  rgb(89, 238, 43);
+}
+
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer .left ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.left li {
+    margin: 10px 0;
+}
+
+.left a{
+    text-decoration: none;
+    color: var(--warm-black);
+}
+
+
 
 
