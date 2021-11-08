@@ -1,2 +1,2 @@
 # Batabit_project
-This is a project about a webpage of cripto.
+This is a project about a webpage of crypto.
